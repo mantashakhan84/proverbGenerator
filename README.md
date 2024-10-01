@@ -26,3 +26,60 @@
     </div>
 </body>
 </html>
+
+
+
+*css*
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.proverb-buttons {
+    margin-bottom: 20px;
+}
+
+.proverb-button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+.proverb-button:hover {
+    background-color: #0056b3;
+}
+
+.proverb {
+    display: none;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.proverb:target {
+    display: block;
+}
+
